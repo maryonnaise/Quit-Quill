@@ -1,0 +1,53 @@
+##Get the list of messages in the chat
+GET http://localhost:3001/api/chat HTTP/1.1
+
+###
+
+##Add a new message in the chat 
+POST http://localhost:3001/api/chat/add HTTP/1.1
+content-type: application/json
+
+{
+    "text": "Prova di inserimento"
+}
+###
+
+
+##Get the starting time of the app
+GET http://localhost:3001/api/time HTTP/1.1
+
+###
+
+##Get the starting time of the app
+GET http://localhost:3001/api/reports HTTP/1.1
+
+###
+
+##Add a new report in the chat 
+POST http://localhost:3001/api/report/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "mood": 1,
+    "smoked": 0,
+    "feelings": "Caio"
+}
+###
+
+
+##Edit an existing report
+PUT http://localhost:3001/api/report/1 HTTP/1.1
+
+content-type: application/json
+{
+    "id": 1,
+    "mood": 1,
+    "smoked": 0,
+    "feelings": "Caio"
+}
+###
+
+##Get the starting time of the app
+GET http://localhost:3001/api/milestones HTTP/1.1
+
+###

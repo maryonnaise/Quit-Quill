@@ -1,0 +1,571 @@
+
+
+ 
+/* Global */
+.user-message {
+  text-align: right;
+}
+
+.color-bottone{
+  background-color: #060a3c;
+  color: white;
+  border: 2px solid #060a3c;
+}
+
+.color-bottone:hover{
+  background-color: #060a3c;
+  color: white;
+  border: 2px solid #060a3c;
+}
+
+.esperti{
+  background-color: white;
+  color: #060a3c;
+  border: 2px solid #060a3c;
+}
+
+.esperti:hover{
+  background-color: #060a3c;
+  color: white;
+  border: #060a3c;
+}
+
+.esperti-attivo{
+  background-color: #060a3c;
+  color: white;
+  border: #060a3c;
+}
+
+.esperti-attivo:hover{
+  background-color: #060a3c;
+  color: white;
+  border: #060a3c;
+}
+
+.color-bottone-second{
+  background-color: white;
+  color: #060a3c;
+  border: 2px solid #060a3c;
+}
+
+.color-bottone-second:hover{
+  background-color: #060a3c;
+  color: white;
+  border: 2px solid #060a3c;
+}
+
+.delete-edit{
+  margin-left: 6px;
+  background-color: #060a3c;
+  color: white;
+  border: #060a3c;
+}
+
+.delete-edit:hover{
+  background-color: #060a3c;
+  color: white;
+  border: #060a3c;
+}
+
+.delete-chat{
+  margin-left: auto; /* Imposta il margine sinistro su "auto", spingendo il bottone del cestino verso destra */
+  background-color:  #060a3c ;
+  color: white;
+}
+
+.delete-chat:hover{
+  background-color: #060a3c ;
+  color: white;
+}
+
+.tipo-dott{
+  text-align: center;
+}
+
+.active-filter {
+  font-weight: bold;
+  color: #ffffff;;
+  /* Add any other styles to highlight the active filter */
+}
+td,th {
+  text-align: center;
+}
+
+.center-icon{
+  text-align: center;
+  padding-top: 30px;
+}
+.bigger-text{
+  font-size:2cap;
+}
+.paddedtexttop{
+  padding-top: 20px;
+  font-size:3cap;
+}
+.vheight-100 {
+  min-height: 100vh;
+}
+.Nav{
+color: black;
+}
+/* Styles related to NavBar */
+.navbar-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 8rem;
+  background: #E4A11B;
+}
+
+.logo{
+  font-size:5cap;
+}
+
+.below-nav {
+  padding-top: 9rem;
+}
+.container-reports{
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.repo-container {
+  height: 120px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+.navbar-items {
+  margin-left: 1.5rem; 
+  margin-right: 1.5rem;
+  font-size: 2.5cap;/* Center the navbar */
+}
+
+.navbar-user {
+ 
+  padding-right: 1px;
+
+  font-size: 2.5cap;/* Center the navbar */
+}
+
+.navbar-items:hover {
+  font-weight:bold ;
+}
+
+/* Icons */
+.icon-size {
+  font-size: 1.5rem;
+}
+
+/* Filters and projects */
+.list-group-item {
+  background-color: transparent;
+}
+
+.active {
+  background-color: #795816;
+  border-color: #E4A11B;
+}
+
+.list-group-item-action:hover {
+  background-color: #E4A11B;
+  color: white;
+}
+
+.displaymario{
+  display:flex
+}
+
+small.watch-date {
+  text-align: right;
+}
+
+.projects-title {
+  margin-top: 2rem;
+}
+
+.notbold {
+  font-weight: normal;
+}
+
+/* Class for important tasks */
+.favorite {
+  color: red;
+}
+
+/* CSS PER FORM NEW REPORT*/
+
+.mood-buttons {
+  display: flex;
+  margin-left: 42%;
+}
+
+.mood-button {
+  font-size: 2em;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+.radio-label {
+  margin-right: 20px; /* Aggiungi spazio tra le label */
+  font-size: 1.2em; /* Aumenta la dimensione del testo */
+}
+
+.radio-input {
+  margin-right: 10px; /* Aggiungi spazio tra i radio button */
+  transform: scale(1.5); /* Aumenta la dimensione dei radio button */
+}
+
+.textarea-container {
+  margin-top: 10px;
+}
+
+.textarea-input {
+  width: 60%; /* Imposta la larghezza al 100% del contenitore */
+  height: 80px; /* Imposta l'altezza desiderata */
+  padding: 10px; /* Aggiunge un padding al testo all'interno del textarea */
+  font-size: 1.2em; /* Aumenta la dimensione del testo */
+}
+
+
+/*
+ * NOTE: HTML collapses multiple withespaces into one, so "Hello      world!" becomes "Hello world!".
+ * If you want to keep them use white-space: pre-wrap;
+ */
+.keep-white-space {
+  white-space: pre-wrap;
+}
+
+/* Add task button */
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+/* Adding padding to form */
+.form-padding {
+  padding: 2rem;
+}
+
+.smaller-form {
+  width: 200px; /* Adjust the width to your desired value */
+  /* Add any other custom styles to resize the form */
+}
+
+/* FakeChat.css */
+
+.container-chat {
+  position:fixed;
+  width: calc(100vw / 3.1); /* One-third of the viewport width */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  height: 450px;    /* Da modificare questo per la lunghezza della chat*/
+  overflow-y: scroll;
+}
+
+
+.message {
+  text-align: left;
+  margin: 10px;
+}
+
+.message-box {
+  background: #d3d3d3;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.message-box-david {
+  background: aliceblue;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.sender-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.message-text {
+  margin-top: 5px;
+}
+
+.timestamp {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #666;
+}
+
+
+.form-container {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+
+.input-box {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  background-color: #060a3c;
+  color: white;
+  border: #060a3c;
+  padding: 3%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.send-button-expert{
+  background-color: #060a3c;
+  padding: 0.5em 1em; /* Usa em per il padding per scalabilità */
+  color: #fff;
+  border: #060a3c;
+  border-radius: 10px;
+  cursor: pointer;
+  width: auto; /* Oppure puoi specificare una larghezza, es. 10em */
+  height: auto; /* L'altezza si adatterà al contenuto */
+  font-size: 1rem; /* Aggiusta questa dimensione per scalare il bottone */
+}
+
+
+.community{
+    text-align: center;
+    font-size: 2.3cap
+    
+}
+
+/* calendar */
+
+/* Calendar.css */
+.day {
+  border: 1px solid #000000;
+  background-color: #fff7e8;
+  padding: 10px;
+}
+
+.day:hover {
+  border: 1px solid #000000;
+  background-color: #a88c66;
+  padding: 10px;
+}
+
+.current-day {
+  background-color: #060a3c;
+}
+
+.bottone-today{
+  pointer-events: none; /* Impedisce al bottone di essere cliccato */
+  background-color: #060a3c;
+  border: #060a3c;
+}
+
+.bottone-selected{
+  margin-left: 5px;
+  pointer-events: none; /* Impedisce al bottone di essere cliccato */
+  background-color: #a88c66;
+  border: #a88c66;
+}
+
+.date-button {
+  pointer-events: none; /* Impedisce al bottone di essere cliccato */
+  width: 10%;
+  height: 15%;
+  background-color: lightgrey; /* Imposta il colore di base del bottone */
+  color: black; /* Imposta il colore del testo */
+}
+
+.date-button:hover {
+  width: 10%;
+  height: 15%;
+  background-color: lightgrey; /* Imposta il colore di base del bottone */
+  color: black; /* Imposta il colore del testo */
+}
+
+.date-button-selected {
+  pointer-events: none; /* Impedisce al bottone di essere cliccato */
+  width: 10%;
+  height: 15%;
+  background-color: #a88c66; /* Imposta il colore di base del bottone */
+  color: white; /* Imposta il colore del testo */
+}
+
+.date-button-selected:hover {
+  width: 10%;
+  height: 15%;
+  background-color: #a88c66; /* Imposta il colore di base del bottone */
+  color: white; /* Imposta il colore del testo */
+}
+
+.date-text {
+  margin: auto;
+  align-self: center;
+}
+
+.days {
+  margin-top: 0px;
+}
+
+.date-button:focus {
+  outline: none;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.riga-calendar{
+  height: 65px;
+}
+
+
+/* animazioni */
+
+.FakeChat {
+  transition: transform 0.5s ease;
+}
+
+.FakeChat.hidden {
+  transform: translateX(-100%);
+}
+
+.FakeChat.slide-out-left {
+  transform: translateX(-100%);
+}
+
+.FakeChat.slide-in-right {
+  transform: translateX(0);
+}
+
+.Outlet {
+  transition: transform 0.5s ease;
+}
+
+.Outlet.hidden {
+  transform: translateX(100%);
+}
+
+.Outlet.slide-out-right {
+  transform: translateX(100%);
+}
+
+.Outlet.slide-in-left {
+  transform: translateX(0);
+}
+
+.chatapp-visible {
+  animation: slideDown 0.5s ease 0s 1 normal forwards; /* Aggiunge animazione di scorrimento verso il basso */
+}
+
+.chatapp-hidden {
+  display: none; /* Nasconde la riga */
+}
+
+@keyframes slideDown {
+  0% {
+    display: none; /* Nasconde la riga all'inizio dell'animazione */
+    transform: translateY(-100%);
+  }
+  100% {
+    display: flex !important;
+    transform: translateY(0);
+    display: flex !important; /* Mostra la riga quando l'animazione inizia */
+  }
+}
+
+
+
+/* 
+CCS PER PAGINA MILESTONE
+*/
+
+.milestone-container {
+  font-size: 20px; /* Dimensione del carattere delle milestone */
+}
+
+.milestone-type {
+  margin-bottom: 30px; /* Spazio tra i tipi di milestone */
+  width: 400px;
+}
+
+.milestone-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Spazio tra le descrizioni delle milestone */
+}
+
+.milestone-item.not-achieved {
+  color: #999; /* Grigio più chiaro per le milestone non raggiunte */
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+}
+
+.description-container span {
+  margin-right: 8px; /* Aggiungi margine a destra per separare il testo dall'icona */
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.share-icon {
+  padding: 10px;
+}
+
+.trophy {
+  padding: 10px;
+}
+
+.row-small{
+
+    max-height: 600px; /* Imposta l'altezza massima desiderata */
+    overflow-y: auto; /* Aggiunge una barra di scorrimento verticale se il contenuto supera l'altezza massima */
+
+  
+}
+
+.go-back {
+  max-width: 200px
+}
+
+.nome-doc {
+  text-align: center;
+}
