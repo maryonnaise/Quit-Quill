@@ -11,7 +11,7 @@ the prototype has been developed with react bootsrap libraries and javascript fo
 
 ![page to check the milestones](./immages/calendar.png)
 
-![page to to chat with an expert](./immages/expert\chat.png)
+![page to to chat with an expert](./immages/expertchat.png)
 
 
 # what i've learned
