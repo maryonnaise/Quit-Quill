@@ -5,6 +5,13 @@ Human Computer Interaction course project. The goal of this activity was to prod
 the prototype has been developed with react bootsrap libraries and javascript for the front end, and for the backend express server connected to a local databse with the needed information for the prototype to work properly, this was choosen for how easy is to quickly develop a web application with these framework. 
 
 # the prototype
+![calendar that the displays the reports and the milestones achived](./immages/calendar.png)
+
+![page to insert a new report](./immages/report.png)
+
+![page to check the milestones](./immages/calendar.png)
+
+![page to to chat with an expert](./immages/expert\chat.png)
 
 
 # what i've learned
